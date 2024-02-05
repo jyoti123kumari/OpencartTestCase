@@ -16,7 +16,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
-import com.crm.qa.base.TestBase;
+import com.Opencart.qa.base.TestBase;
 
 public class TestUtil extends TestBase {
 
