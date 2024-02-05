@@ -17,8 +17,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
-import com.crm.qa.util.TestUtil;
-import com.crm.qa.util.WebEventListener;
+import com.Opencart.qa.util.TestUtil;
+import com.Opencart.qa.util.WebEventListener;
 
 public class TestBase {
 	
@@ -65,7 +65,7 @@ public class TestBase {
 		driver.manage().timeouts().pageLoadTimeout(TestUtil.PAGE_LOAD_TIMEOUT, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		
-		driver.get(prop.getProperty("url"));
+		driver.get(prop.getProperty("https://www.opencart.com/"));
 		
 	}
 	
